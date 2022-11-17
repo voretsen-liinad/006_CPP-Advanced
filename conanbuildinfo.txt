@@ -1,26 +1,23 @@
 [includedirs]
-C:/.conan/8b5b36/1/include
-C:/Users/Danil/.conan/data/zlib/1.2.13/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
+C:/Users/Danil/.conan/data/gtest/cci.20210126/_/_/package/875c67f4d8a79bdd002908b75efce119eb82836d/include
 
 [libdirs]
-C:/.conan/8b5b36/1/lib
-C:/Users/Danil/.conan/data/zlib/1.2.13/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
+C:/Users/Danil/.conan/data/gtest/cci.20210126/_/_/package/875c67f4d8a79bdd002908b75efce119eb82836d/lib
 
 [bindirs]
-C:/.conan/8b5b36/1/bin
+
 
 [resdirs]
 
 
 [builddirs]
-C:/.conan/8b5b36/1/
-C:/.conan/8b5b36/1/lib/cmake/protobuf
-C:/Users/Danil/.conan/data/zlib/1.2.13/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
+
 
 [libs]
-libprotocd
-libprotobufd
-zlib
+gtest_maind
+gmock_maind
+gmockd
+gtestd
 
 [system_libs]
 
@@ -53,140 +50,73 @@ zlib
 
 
 
-[includedirs_protobuf]
-C:/.conan/8b5b36/1/include
+[includedirs_gtest]
+C:/Users/Danil/.conan/data/gtest/cci.20210126/_/_/package/875c67f4d8a79bdd002908b75efce119eb82836d/include
 
-[libdirs_protobuf]
-C:/.conan/8b5b36/1/lib
+[libdirs_gtest]
+C:/Users/Danil/.conan/data/gtest/cci.20210126/_/_/package/875c67f4d8a79bdd002908b75efce119eb82836d/lib
 
-[bindirs_protobuf]
-C:/.conan/8b5b36/1/bin
+[bindirs_gtest]
 
-[resdirs_protobuf]
 
+[resdirs_gtest]
 
-[builddirs_protobuf]
-C:/.conan/8b5b36/1/
-C:/.conan/8b5b36/1/lib/cmake/protobuf
 
-[libs_protobuf]
-libprotocd
-libprotobufd
+[builddirs_gtest]
 
-[system_libs_protobuf]
 
+[libs_gtest]
+gtest_maind
+gmock_maind
+gmockd
+gtestd
 
-[defines_protobuf]
+[system_libs_gtest]
 
 
-[cppflags_protobuf]
+[defines_gtest]
 
 
-[cxxflags_protobuf]
+[cppflags_gtest]
 
 
-[cflags_protobuf]
+[cxxflags_gtest]
 
 
-[sharedlinkflags_protobuf]
+[cflags_gtest]
 
 
-[exelinkflags_protobuf]
+[sharedlinkflags_gtest]
 
 
-[sysroot_protobuf]
+[exelinkflags_gtest]
 
 
-[frameworks_protobuf]
+[sysroot_gtest]
 
 
-[frameworkdirs_protobuf]
+[frameworks_gtest]
 
 
-[rootpath_protobuf]
-C:/.conan/8b5b36/1
+[frameworkdirs_gtest]
 
-[name_protobuf]
-protobuf
 
-[version_protobuf]
-3.21.4
+[rootpath_gtest]
+C:/Users/Danil/.conan/data/gtest/cci.20210126/_/_/package/875c67f4d8a79bdd002908b75efce119eb82836d
 
-[generatornames_protobuf]
-pkg_config=protobuf_full_package
+[name_gtest]
+gtest
 
-[generatorfilenames_protobuf]
-cmake_find_package=Protobuf
-cmake_find_package_multi=protobuf
+[version_gtest]
+cci.20210126
 
+[generatornames_gtest]
+cmake_find_package=GTest
+cmake_find_package_multi=GTest
 
-[includedirs_zlib]
-C:/Users/Danil/.conan/data/zlib/1.2.13/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
+[generatorfilenames_gtest]
 
-[libdirs_zlib]
-C:/Users/Danil/.conan/data/zlib/1.2.13/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
 
-[bindirs_zlib]
 
-
-[resdirs_zlib]
-
-
-[builddirs_zlib]
-C:/Users/Danil/.conan/data/zlib/1.2.13/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
-
-[libs_zlib]
-zlib
-
-[system_libs_zlib]
-
-
-[defines_zlib]
-
-
-[cppflags_zlib]
-
-
-[cxxflags_zlib]
-
-
-[cflags_zlib]
-
-
-[sharedlinkflags_zlib]
-
-
-[exelinkflags_zlib]
-
-
-[sysroot_zlib]
-
-
-[frameworks_zlib]
-
-
-[frameworkdirs_zlib]
-
-
-[rootpath_zlib]
-C:/Users/Danil/.conan/data/zlib/1.2.13/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714
-
-[name_zlib]
-zlib
-
-[version_zlib]
-1.2.13
-
-[generatornames_zlib]
-cmake_find_package=ZLIB
-cmake_find_package_multi=ZLIB
-
-[generatorfilenames_zlib]
-
-
-
-[USER_protobuf]
-[USER_zlib]
-[ENV_protobuf]
-PATH=["C:\.conan\8b5b36\1\bin"]
-[ENV_zlib]
+[USER_gtest]
+[ENV_gtest]

@@ -7,7 +7,7 @@
     os=Windows
 
 [requires]
-    protobuf/3.Y.Z
+    gtest/cci.20210126
 
 [options]
 
@@ -23,16 +23,14 @@
     os_build=Windows
 
 [full_requires]
-    protobuf/3.21.4:2c92c32af71324f0143d3738c61b80db04fc702a
-    zlib/1.2.13:d057732059ea44a47760900cb5e4855d2bea8714
+    gtest/cci.20210126:875c67f4d8a79bdd002908b75efce119eb82836d
 
 [full_options]
-    protobuf:debug_suffix=True
-    protobuf:lite=False
-    protobuf:shared=False
-    protobuf:with_rtti=True
-    protobuf:with_zlib=True
-    zlib:shared=False
+    gtest:build_gmock=True
+    gtest:debug_postfix=d
+    gtest:hide_symbols=False
+    gtest:no_main=False
+    gtest:shared=False
 
 [recipe_hash]
 
